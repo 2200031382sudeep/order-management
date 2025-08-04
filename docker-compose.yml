@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./backend
+    container_name: order-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - NODE_ENV=development
+
+  frontend:
+    build: ./frontend
+    container_name: order-frontend
+    ports:
+      - "3000:80"
