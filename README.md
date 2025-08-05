@@ -1,25 +1,20 @@
 # 📦 Order Management System
 
-An Order Management System built with **Spring Boot** (backend) and **JavaScript** (frontend).  
-Currently, the project runs without a database integration, storing data in memory.
+A simple **Order Management System** built entirely with **HTML, CSS, and JavaScript**.  
+This version does **not** use a backend or database — all data is managed in-memory.
 
 ---
 
 ## 🚀 Features
-- Create, view, update, and delete orders  
-- Manage customers and their order details  
-- RESTful APIs with Spring Boot  
-- Responsive JavaScript-based frontend  
-- In-memory storage (no database required for now)  
+- Add, view, update, and delete orders  
+- Manage customer details  
+- Responsive design for better user experience  
+- Works completely in the browser
 
 ---
 
 ## 🛠 Tech Stack
-**Backend:** Spring Boot (Java)  
-**Frontend:** HTML, CSS, JavaScript  
-**Build Tool:** Maven  
-**Containerization:** Docker & Docker Compose (optional)
+- **Frontend:** HTML, CSS, JavaScript  
+- **Storage:** In-memory 
 
 ---
-
-## 📂 Project Structure
